@@ -1,6 +1,6 @@
 **VHDL programming of a controller for a minirobot**
 
-1. General block diagram description
+**1. General block diagram description**
 
 The minirobot controller has the following functions:
 1. It sets the vehicle motion sense;
@@ -41,3 +41,7 @@ The adaptive block translates the voltage levels from 3.3-5V to 9-48V.
 The static converter provides the motor's command voltage by interpreting the signals provided by the controller: sens, start_stop, semn and dif. 
 
 The motor speed transducer measures the motor speed, providing a binary signal to the SRA block. 
+
+**2. Decoder design**
+
+
