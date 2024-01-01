@@ -32,3 +32,12 @@ Motor speed t is provided using a speed transducer, using a code word.
 
 The speed and the proportionality constant are parameters that modify the SRA output signals. 
 
+SRA2 has t1 as an input signal for the speed.
+
+SRA1 synchronizes SRA2 by reducing the motor speed error m2.
+
+The adaptive block translates the voltage levels from 3.3-5V to 9-48V.
+
+The static converter provides the motor's command voltage by interpreting the signals provided by the controller: sens, start_stop, semn and dif. 
+
+The motor speed transducer measures the motor speed, providing a binary signal to the SRA block. 
