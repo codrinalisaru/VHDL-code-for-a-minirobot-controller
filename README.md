@@ -63,6 +63,6 @@ Chronograms:
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/24410513-e124-4506-90a3-dd054db04957)
 
 
-**3.SRA - Automatic setting system**
+**3.SRA - Automatic adjustment system**
 
 
