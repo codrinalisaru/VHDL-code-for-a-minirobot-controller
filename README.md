@@ -44,4 +44,19 @@ The motor speed transducer measures the motor speed, providing a binary signal t
 
 **2. Decoder design**
 
+Truth table:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/b063994d-2274-4ae1-8f9b-b552a2c122e7)
+
+Sens1=f(c1)
+
+Sens2=f(c2)
+
+Start_stop1=f(c)
+
+Start_stop2=f(c)
+
+VHDL code: decodifier.vhd
+
+
 
