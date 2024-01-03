@@ -65,4 +65,9 @@ Chronograms:
 
 **3.SRA - Automatic adjustment system**
 
+Block-diagram: 
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/9bde19b3-f3e0-4c5e-b6e4-2a057a91ba4f)
+
+VHDL code: multiplexer_comparator.vhd
 
