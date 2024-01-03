@@ -71,3 +71,8 @@ Block-diagram:
 
 VHDL code: multiplexer_comparator.vhd
 
+Chronograms:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/b42a0a71-605a-42a8-b115-983a3e1dcfb9)
+
+
