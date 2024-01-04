@@ -12,7 +12,7 @@ Controller's block diagram:
 
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/cbed5922-9f45-45f2-9b9e-4a9e101b220e)
 
-This controller sets the direction and the sense accprding to the c code word of 4 bits.
+This controller sets the direction and the sense according to the c code word of 4 bits.
 
 The decodifier block outputs (sens1, sens2, start_stop1, start_stop2) depends on the c code word, according to a truth table. If the sense signal is '1', then the vehicle is moving forward. If the sense signal is '0', then the vehicle is moving backwards.
 
@@ -75,4 +75,12 @@ Chronograms:
 
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/b42a0a71-605a-42a8-b115-983a3e1dcfb9)
 
+
+**Difference block**
+
+Block diagram:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/bedc9c17-81bb-41b2-8035-4dbe0dfd5125)
+
+VHDL code: difference.vhd
 
