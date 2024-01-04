@@ -84,3 +84,9 @@ Block diagram:
 
 VHDL code: difference.vhd
 
+Chronograms:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/8f69ee2d-4b5d-4e1c-8cd7-537120a6bc36)
+
+**4.Processing block**
+
