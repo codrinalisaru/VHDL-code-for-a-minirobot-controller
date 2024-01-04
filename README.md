@@ -90,3 +90,12 @@ Chronograms:
 
 **4.Processing block**
 
+Block diagram:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/a9762c3f-2d53-48ba-97d0-75f2a178e016)
+
+VHDL code for SRA1: processing_block_sra1.vhd
+
+VHDL code for SRA2: processing_block_sra2.vhd
+
+**5.The controller**
