@@ -109,3 +109,31 @@ The in and out registers are memory registers for the processing block's inputs 
 Init-asynchronous
 
 Reset, load1, load2-synchronous
+
+VHDL code: entireAssemblyCode.vhd
+
+Chronograms:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/f7f8105f-6686-431b-af4a-f0202dcb0a80)
+
+Usage of the used device:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/d3a5baae-fb48-4980-bfbf-ba18e5606ef0)
+
+Some datasheet info for the used chip:
+
+**Flash270i CPLD**
+
+Producer: Cypress Semiconductor
+
+Used CPLD :  CY7C372I-66JC FLASH370i CPLD
+
+CY7C372i is a reprogrammable CPLD (Complex Programmable Logic Device) system, with high density and high speed. 
+
+- 64 macrocells divided into 4 logic blocks;
+- 32 in/out pins;
+- no hidden latencies;
+- high speed;
+- max frequency: 125 MHz;
+- operating voltage: 3.3V or 5V. 
+
