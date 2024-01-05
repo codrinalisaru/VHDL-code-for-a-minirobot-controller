@@ -99,3 +99,13 @@ VHDL code for SRA1: processing_block_sra1.vhd
 VHDL code for SRA2: processing_block_sra2.vhd
 
 **5.The controller**
+
+Block diagram:
+
+![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/62987a75-6640-4930-bdd1-fb56fe531c87)
+
+The in and out registers are memory registers for the processing block's inputs and outputs. The automate's purpose is to control the input/output data memorize from the processing block. The automate changes its state on the rising edge of the clock signal and the data memorization in the register is made on the falling edge of the clock signal. 
+
+Init-asynchronous
+
+Reset, load1, load2-synchronous
