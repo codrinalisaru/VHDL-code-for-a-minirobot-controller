@@ -1,4 +1,4 @@
-**VHDL programming of a controller for a minirobot**
+ **VHDL programming of a controller for a minirobot**
 
 **1. General block diagram description**
 
@@ -8,6 +8,7 @@ The minirobot controller has the following functions:
 3. It sets the vehicle moving speed.
 
 The objective of the project is motion with constant speed. 
+
 Controller's block diagram:
 
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/cbed5922-9f45-45f2-9b9e-4a9e101b220e)
