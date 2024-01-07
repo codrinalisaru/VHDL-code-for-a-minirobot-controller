@@ -57,7 +57,7 @@ Start_stop1=f(c)
 
 Start_stop2=f(c)
 
-VHDL code: decodifier.vhd
+VHDL code: <a href="[url](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/blob/main/decodifier.vhd)">decodifier.vhd</a>
 
 Chronograms: 
 
