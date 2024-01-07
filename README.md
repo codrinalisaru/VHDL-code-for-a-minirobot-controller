@@ -1,6 +1,6 @@
- **VHDL programming of a controller for a minirobot**
+<h1>VHDL programming of a controller for a minirobot</h1>
 
-**1. General block diagram description**
+<h2>1. General block diagram description</h2>
 
 The minirobot controller has the following functions:
 1. It sets the vehicle motion sense;
@@ -43,7 +43,7 @@ The static converter provides the motor's command voltage by interpreting the si
 
 The motor speed transducer measures the motor speed, providing a binary signal to the SRA block. 
 
-**2. Decoder design**
+<h2>2. Decoder design</h2>
 
 Truth table:
 
@@ -64,7 +64,7 @@ Chronograms:
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/24410513-e124-4506-90a3-dd054db04957)
 
 
-**3.SRA - Automatic adjustment system**
+<h2>3.SRA - Automatic adjustment system</h2>
 
 Block-diagram: 
 
@@ -89,7 +89,7 @@ Chronograms:
 
 ![image](https://github.com/codrinalisaru/VHDL-code-for-a-minirobot-controller/assets/94629883/8f69ee2d-4b5d-4e1c-8cd7-537120a6bc36)
 
-**4.Processing block**
+<h2>4.Processing block</h2>
 
 Block diagram:
 
@@ -99,7 +99,7 @@ VHDL code for SRA1: processing_block_sra1.vhd
 
 VHDL code for SRA2: processing_block_sra2.vhd
 
-**5.The controller**
+<h2>5.The controller</h2>
 
 Block diagram:
 
