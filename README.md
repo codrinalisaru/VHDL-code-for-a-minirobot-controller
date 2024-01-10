@@ -23,11 +23,11 @@ SRA is the automatic adjustment system for controlling the motor speed. This SRA
 
 The block must calculate:
 
-dif=k*|vp-t|
+- dif=k*|vp-t|
 
-vp>=t => semn ‘1’
+- vp>=t => semn ‘1’
 
-vp<t => semn ‘0’
+- vp<t => semn ‘0’
 
 Motor speed t is provided using a speed transducer, using a code word. 
 
